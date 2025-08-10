@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greg Corbett - Portfolio</title>   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-content">
+                <div class="navbar-left">
+                    <div class="profile-pic">
+                        <img src="profile.webp" alt="Greg Corbett" />
+                    </div>
+                    <div class="profile-info">
+                        <h1>Greg Corbett</h1>
+                        <p>IT Developer</p>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <button
+                        onclick="scrollToSection('home')"
+                        class="nav-button active"
+                        data-section="home"
+                    >
+                        Home
+                    </button>
+                    <button
+                        onclick="scrollToSection('education')"
+                        class="nav-button"
+                        data-section="education"
+                    >
+                        Education
+                    </button>
+                    <button
+                        onclick="scrollToSection('career')"
+                        class="nav-button"
+                        data-section="career"
+                    >
+                        Career
+                    </button>
+                    <button
+                        onclick="scrollToSection('personal')"
+                        class="nav-button"
+                        data-section="personal"
+                    >
+                        Personal
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="home" class="section">
+            <div class="home-content">
+                <div class="home-header">
+                    <div class="large-profile-pic">
+                        <img src="profile.webp" alt="Greg Corbett" />
+                    </div>
+                    <div class="home-info">
+                        <h1>Greg Corbett</h1>
+                        <h2>About Me</h2>
+                        <div class="contact-info">
+                            <p>
+                                <span class="contact-icon">📍</span>
+                                Carlisle, CA2, UK
+                            </p>
+                            <p>
+                                <span class="contact-icon">📱</span>
+                                +447708217567
+                            </p>
+                            <p>
+                                <span class="contact-icon">✉️</span>
+                                <a href="mailto:gregcorbett_170@hotmail.com">gregcorbett_170@hotmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="bio">
+                    A hard-working professional with strong skills in modern web design and data analysis with a focus on writing clean, maintainable code to produce intuitive user interfaces. I have recently gained qualifications to prove my proficiency in Python and JavaScript. These qualifications have taught me fundamental programming concepts which are transferable to any language. After a successful 10-year career in the the property and pensions industry, and carrying out some freelance web design work, I am looking to transition into a long-term IT role. 
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item highlight">
+                <p class="cert-name">PCAP 31-03 - Certified Associate Python Programmer</p>
+                <p class="cert-date">Nov 2024</p>
+            </div>
+            <div class="education-item highlight">
+                <p class="cert-name">PCEP 30-02 – Certified Entry-Level Python Programmer</p>
+                <p class="cert-date">Sept 2024</p>
+            </div>
+            <div class="education-item highlight">
+                <p class="cert-name">JSE – Certified Entry-Level JavaScript Programmer JSE 40-01</p>
+                <p class="cert-date">Dec 2024</p>
+            </div>
+            <div class="education-item">
+                <p class="cert-name">Level 3 ILM Certificate in Leadership and Management</p>
+                <p class="cert-date">2021</p>
+            </div>
+            <div class="education-item">
+                <p class="cert-name">BSC Applied Psychology</p>
+                <p class="cert-date">2014 - University of Cumbria</p>
+            </div>
+            <div class="education-item">
+                <p class="cert-name">A Levels</p>
+                <p class="cert-date">2011 - Oaklands College - Maths & Psychology</p>
+            </div>
+            <div class="education-item">
+                <p class="cert-name">GCSEs</p>
+                <p class="cert-date">2009 - East Barnett School - 11 GCSEs all graded A-C</p>
+            </div>
+        </section>
+
+        <section id="career" class="section">
+            <h2 class="section-title">Career</h2>
+            <div class="company-section">
+                <h3 class="company-name">Cumbria Cleaning Co.</h3>
+                <p class="company-period">2025 - Present</p>
+                
+                <div class="role-section">
+                    <h4 class="role-title">Freelance Web Designer</h4>
+                    <ul class="role-duties">
+                        <li>Designing website for local cleaning company.</li>
+                        <li>Use of Google Analytics to monitor website traffic.</li>
+                        <li>Implementing best SEO practices including JSON schemas and effective meta descriptions & headings.</li>
+                        <li>Creating easy contact links through email and WhastApp.</li>
+                        <li>Maintaining testimonials page with latest company reviews.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="company-section">
+                <h3 class="company-name">InvestAcc Pension Administration Ltd</h3>
+                <p class="company-period">2015 – Present</p>
+                
+                <div class="role-section">
+                    <h4 class="role-title">SSAS Property Manager</h4>
+                    <p class="role-period">2023-Present</p>
+                    <ul class="role-duties">
+                        <li>Creating and developing a new department from scratch to manage over 500 properties.</li>
+                        <li>Introducing new procedures, training guides and templates.</li>
+                        <li>Extensive use of Excel, Power Query and other Microsoft Office programs including Outlook and Teams.</li>
+                    </ul>
+                </div>
+
+                <div class="role-section">
+                    <h4 class="role-title">Team Leader - Property (Post-Acquisition and Sales)</h4>
+                    <p class="role-period">2017-2023</p>
+                    <ul class="role-duties">
+                        <li>Overseeing a department which I grew from 4 to 15 members of staff, managing over 3,600 properties.</li>
+                        <li>Implementing change of department structure to introduce 2 sub-departments.</li>
+                        <li>Overhauling existing in-house bespoke training programme and drafting in-depth training guide.</li>
+                        <li>Management of block insurance policy covering over 350 properties.</li>
+                        <li>Carrying out quarterly appraisals for all members of the team.</li>
+                    </ul>
+                </div>
+
+                <div class="role-section">
+                    <h4 class="role-title">Property Administrator</h4>
+                    <p class="role-period">2015-2017</p>
+                    <ul class="role-duties">
+                        <li>Main point of contact for all property matters on portfolio of 250 properties.</li>
+                        <li>Use of SIPP Pro and Genisys software.</li>
+                        <li>Liaising with clients and insurance providers to ensure all properties have adequate insurance cover.</li>
+                        <li>Liaising with solicitors and surveyors to make sure all occupied have appropriate tenancy agreements in place.</li>
+                        <li>Administrating property development works for various projects and arranging payments with contractors.</li>
+                        <li>Liaising with banks to arrange mortgages and securing charges against properties.</li>
+                        <li>Liaising with solicitors to process property sales including checking of Land Registry titles and applications.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="company-section">
+                <h3 class="company-name">Estates and Management Ltd</h3>
+                <p class="company-period">2014 – 2015</p>
+                
+                <div class="role-section">
+                    <h4 class="role-title">Property Administrator</h4>
+                    <ul class="role-duties">
+                        <li>Intensive training in Land Registry use and lease reading.</li>
+                        <li>Use of Qube property management software.</li>
+                        <li>Liaising with leaseholders regarding ground rent payments and general lease queries.</li>
+                        <li>Processing consent requests for underletting.</li>
+                        <li>Liaising with solicitors to process property transfers.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="references">
+                <p>References available upon request</p>
+            </div>
+        </section>
+
+        <section id="personal" class="section">
+            <h2 class="section-title">Personal Life</h2>
+            <div class="personal-content">
+                <p>
+                    I am a big sports fan and enjoy watching football, cricket, formula one and American football. I am a fan of Everton and Barnet FC, Essex County Cricket Club and the Seattle Seahawks. I also play 7-a-side football regularly.
+                </p>
+                <p>
+                    I am an experienced glider pilot and a former flight instructor with over 700 hours of flight time. I own a glider which is currently based just outside Thirsk, North Yorkshire.
+                </p>
+                <p>
+                    I have been married to my wife for 4 years and we have a 2-year-old daughter.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
