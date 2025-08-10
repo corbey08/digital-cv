@@ -16,7 +16,7 @@ Visit the live version: [https://corbey08.github.io/digital-cv/](https://corbey0
 
 ## 📸 Preview
 
-![Digital CV Homepage](homepage.png)
+![Digital CV Homepage](homepage.PNG)
 
 ## 🛠️ Built With
 
