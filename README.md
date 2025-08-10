@@ -1,13 +1,13 @@
 # Digital CV
 
-A modern, responsive digital curriculum vitae built with HTML, CSS, and JavaScript. This project showcases a clean, professional design optimized for both desktop and mobile viewing.
+A modern, responsive digital curriculum vitae built with HTML, CSS, and JavaScript. This project showcases a clean, professional design optimised for both desktop and mobile viewing.
 
 ## 🌟 Features
 
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Responsive Design**: Fully optimised for desktop, tablet, and mobile devices
 - **Modern UI**: Clean, professional layout with smooth animations
 - **Interactive Elements**: Enhanced user experience with JavaScript functionality
-- **Optimized Images**: WebP format for fast loading times
+- **Optimised Images**: WebP format for fast loading times
 - **GitHub Pages Ready**: Easily deployable and hostable
 
 ## 🚀 Live Demo
@@ -23,7 +23,7 @@ Visit the live version: [https://corbey08.github.io/digital-cv/](https://corbey0
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Modern styling with flexbox/grid layouts
 - **JavaScript**: Interactive functionality and dynamic content
-- **WebP Images**: Optimized image formats for performance
+- **WebP Images**: Optimised image formats for performance
 
 ## 📁 Project Structure
 
@@ -99,15 +99,15 @@ This project is configured for GitHub Pages deployment:
 - ✅ Edge (latest)
 - ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🎨 Customization
+## 🎨 Customisation
 
-To customize this CV for your own use:
+To customise this CV for your own use:
 
 1. **Update Content**: Modify the text content in `index.html`
 2. **Replace Images**: 
    - Replace `profile.webp` with your own profile image
    - Replace `hero-bg.webp` with your preferred background
-3. **Styling**: Customize colors, fonts, and layout in `styles.css`
+3. **Styling**: Customise colors, fonts, and layout in `styles.css`
 4. **Functionality**: Add or modify interactive features in `script.js`
 
 ## 📄 License
@@ -120,7 +120,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📞 Contact
 
-If you have any questions or suggestions, feel free to reach out!
+📧 Email: gregcorbett_170@hotmail.com
 
 ---
 
