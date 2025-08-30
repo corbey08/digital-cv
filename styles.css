@@ -245,6 +245,12 @@ body {
   margin: 0;
 }
 
+.company-section.highlight {
+  background: #dbeafe;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
 .company-section {
   margin-bottom: 2rem;
 }
@@ -260,6 +266,12 @@ body {
   color: #6b7280;
   font-weight: 500;
   margin-bottom: 1rem;
+}
+
+.role-section.highlight {
+  background: #dbeafe;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .role-section {
