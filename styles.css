@@ -181,7 +181,7 @@ body {
     align-items: flex-start; 
     gap: 2rem; 
     flex-wrap: wrap; 
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: url("hero-bg.webp");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -483,7 +483,24 @@ a[href^="mailto:"]:hover {
         flex-direction: column; 
         align-items: center; 
         text-align: center; 
+        padding: 1.5rem 1rem;
     } 
+
+    .home-info {
+        width: 100%;
+    }
+
+    .contact-info p {
+        justify-content: center;
+        word-break: break-word;
+        flex-wrap: wrap;
+    }
+
+    .contact-info a {
+        word-break: break-all;
+        display: inline-block;
+        max-width: 100%;
+    }
 
     .large-profile-pic { 
         width: 6rem; 
@@ -499,4 +516,4 @@ a[href^="mailto:"]:hover {
     .projects-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-}
+    }
